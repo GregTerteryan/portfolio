@@ -1,50 +1,38 @@
 <!Doctype html>
 <html>
     <style>
-        .menu-nav button {
-          background-color: #0054FF;
-          color: white;
-          border: 3px solid blue;
-          margin-right: calc((100% - (4 * 150px)) / 4);
-          width: 144px;
-          height: 44px;
-          cursor: pointer;
-          float: left;
-        }
-        .menu-nav button:hover {
-            background-color: #0049DD;
-        }
-        .profile img {
-            float:right;
-            translate:0px -100px
-        }
     </style>
     <head>
         <title>Greg Terteryan's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
     </head>
-    <body style = "background-color:#A3A3AA;">
+    <body style="position: relative;">
         <center>
-            <h1 style="font-family:Power Clear;font-size:60px;">
-                Greg Terteryan
-            </h1>
+            <h1>Greg Terteryan</h1>
         </center>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVxpFkCdbpczvJTbSfdwFHrkGTGgsHWnMtLZZKJwmWkmhzTFVwhvXSQxmnXKtjQqtFsRXz" target="_blank" class="profile">
-            <img src="gmail_logo.png" width=30 height=30>
-        </a>
-        <a href="https://www.linkedin.com/in/greg-terteryan/" target="_blank" class="profile">
-            <img src="linkedin_logo.png" width=30 height=30>
-        </a>
-        <a href="https://github.com/GregTerteryan" target="_blank" class="profile">
-            <img src="github_logo.png" width=30 height=30>
-        </a>
-        <br><br>
-        <div class="menu-nav">
-            <button style="margin-left:calc((100% - (4 * 150px)) / 8);">Education</button>
-            <button>Projects</button>
-            <button>Other</button>
+        <div class="profile" style="position: absolute; top: 10px; right: 10px;">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=terteryangreg@gmail.com" target="_blank">
+                <img src="gmail_logo.png" alt="Gmail" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/greg-terteryan/" target="_blank">
+                <img src="linkedin_logo.png" alt="LinkedIn" width="30" height="30">
+            </a>
+            <a href="https://github.com/GregTerteryan" target="_blank">
+                <img src="github_logo.png" alt="GitHub" width="30" height="30">
+            </a>
+        </div>
+        <div class="menu-nav" style = "display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; align-items: center;">
+            <a href="education.html">
+                <button>Education</button>
+            </a>
+            <a href="projects.html">
+                <button>Projects</button>
+            </a>
+            </a>
             <a href="abtme.html">
-                <button style="margin-right:0;">About Me</button>
+                <button>About Me</button>
             </a>
         </div>
     </body>

@@ -1,0 +1,50 @@
+.menu-nav button {
+    background-color: #0054FF;
+    color: white;
+    border: 4px solid #0000BB;
+    width: 144px;
+    height: 44px;
+    cursor: pointer;
+    float: left;
+    border-radius: 50px;
+    font-family: Comfortaa;
+    font-weight: bold;
+}
+.menu-nav button:hover {
+    background-color: #0049DD;
+}
+.profile img {
+    width: 30px;
+    height: 30px;
+    float:right;
+}
+.yapping {
+    font-family:Comfortaa;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:10px;
+    margin-right:10px;
+    line-height:1.3;
+}
+body {
+    background-color:#A3A3AA;
+}
+h1 {
+    font-family:Power Clear;
+    font-size:60px;
+}
+.collapsible {
+    font-family:Power Clear;
+    font-size:30px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #DDD;
+}
+.collapsibleception {
+    font-family:Power Clear;
+    font-size:25px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: #EEE;
+    display:none;
+}
